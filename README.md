@@ -1,11 +1,14 @@
-# akapack
+# Akapack
+Akapack is a highly customizable VPN and proxy server/client toolkit designed to address the challenges of establishing secure, reliable connections in environments with restrictive internet access controls, such as corporate networks or countries with internet censorship. Akapack allows users to fully customize their VPN protocols, making it possible to bypass protocol-specific filtering and detection systems with ease.
 
-This is a tool that can very easy to customize and build your own VPN or proxy protocal.
+## Features
+- Modular Design: Leverage a variety of modules such as WebSockets, WireGuard, IPv4, SOCKS, and VMess for tailored connectivity solutions.
+- Flexible Configuration: Define complex encapsulation and decapsulation rules to navigate through restrictive networks.
+- Easy Deployment: Quickly set up VPN or proxy servers with minimal configuration.
 
 
 ## Example
-
-config:
+Below is a sample configuration in config.yml that demonstrates how to set up a WebSockets module encapsulating WireGuard traffic.
 ``` yaml
 web:
   module: websocket
